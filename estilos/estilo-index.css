@@ -1,0 +1,297 @@
+/*                                         SESSÃO TOPO                                */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1350px;
+}
+
+.topo{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    background-color: white;
+}
+
+.topo img{
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    left: 180px;
+    top: -30px;
+}
+
+.topo-links{
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    right: 40px;
+}
+
+.topo a{
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    color: gray;
+}
+
+/*                                         SESSÃO BANNER                                        */
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(17, 110, 248);
+    color: white;
+    position: relative;
+}
+
+.banner img{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    border-radius: 10px;
+}
+
+.texto-banner{
+    width: 450px;
+    height: 300px;
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 180px;
+    line-height: 30px;
+}
+
+.texto-banner h2{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*                                         SESSÃO ANINCIO1                                        */
+
+.anuncio1{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(1, 1, 46, 0.877);
+    color: white;
+    position: relative;
+}
+
+.texto-anuncio{
+    height: 80px;
+    width: 450px;
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    line-height: 30px;
+}
+
+.texto-anuncio h3{
+    font-size: 23px;
+}
+
+/*                                         BOTÃO                                        */
+
+.botao{
+    background-color: rgb(17, 110, 248);
+    height: 60px;
+    width: 200px;
+    right: 210px;
+    top: 25px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 22px;
+    right: 15px;
+}
+
+.botao img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+}
+
+/*                                         SEÇÃO INFORMAÇÕES                                        */
+
+.texto-destaque{
+    color: rgb(17, 110, 248);
+}
+
+.informacoes{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.informacoes h3{
+   padding-top: 60px;
+   font-size: 23px;
+}
+.informacoes h4{
+    padding-top: 10px;
+    font-size: 23px;
+ }
+
+.informacoes p{
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+.limita-largura{
+    height: 250px;
+    width: 900px;
+    position: absolute;
+    display: flex;
+    left: 200px;
+    top: 200px;
+ }
+
+ .info-destaque{
+    height: 250px;
+    width: 300px;
+ }
+
+.info-destaque img{
+    width: 120px;
+    height: 120px;
+}
+
+.info-destaque h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info-destaque p{
+    font-size: 15px;
+    font-weight:100 ;
+}
+
+/*                                         SEÇÃO PLANOS                                        */
+
+.planos{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(232, 247, 242);
+    position: absolute;
+    top: 500px;
+}
+
+.planos h2{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+.tabela{
+    position: absolute;
+    width: 900px;
+    height: 450px;
+    left: 195px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 10px rgb(17, 110, 248);
+}
+
+.tabela p{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabela h5{
+    padding-top: 20px;
+    font-size: 16px;
+    color: gray;
+}
+
+.tabela th{
+    padding-top: 15px;
+}
+
+.tabela img{
+    width: 80px; 
+    height: 80px;
+}
+
+/*                                         SEÇÃO ANUNCIO2                                        */
+
+.anuncio2{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(17, 110, 248);
+    color: white;
+    position: absolute;
+    top: 2040px;
+}
+
+.anuncio2 .botao{
+    background-color: rgba(1, 1, 46, 0.877);
+}
+
+.texto-anuncio{
+    height: 80px;
+    width: 450px;
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    line-height: 30px;
+}
+
+.texto-anuncio h3{
+    font-size: 20px;
+}
+
+/*                                         SEÇÃO RODAPÉ                                        */
+
+.rodape{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 2150px;
+}
+
+.rodape img{
+    width: 270px;
+    height: 250px;
+    position: absolute;
+    left: 520px;
+}
+
+.texto-rodape{
+    position: absolute;
+    top: 240px;
+    left: 410px;
+    width: 500px;
+    height: 150px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(46, 45, 45);
+}
+
+.nome{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color:rgb(225, 248, 248);
+    position: absolute;
+    top: 380px;
+}
+
+.nome p{
+    margin-top: 12px;
+    font-size: 17px;
+}
